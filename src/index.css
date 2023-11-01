@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.formlogin {
+  background-color: rgba(0, 0, 0, 0.2);
+  width: 450px;
+  flex-wrap: nowrap;
+  margin-top: 145px;
+  box-sizing: border-box;
+  border-radius: 12px;
+
+  box-shadow: 3px 3px 3px 1px rgba(0, 0, 0, 0.2);
+}
+.formlogin h2{
+  text-align: center;
+  padding-top: 15px;
+}
+.form1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.formlogin input {
+  margin: 10px;
+  width: 90%;
+  padding: 10px;
+  border-radius: 12px;
+}
+.bttonLogin {
+  padding: 15px;
+ 
+}
+.gguser{
+  display: flex;
+
+}
+.gguser avatar{
+  margin-top: 15px;
+
+}
+.lgin{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.formlogin h4{
+  padding-left: 10px;
+}
+#buttonDiv{
+  padding: 10px;
+}

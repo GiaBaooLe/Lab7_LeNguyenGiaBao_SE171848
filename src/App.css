@@ -1,0 +1,12 @@
+.content {
+  width: 1200px;
+  max-width: calc(100% - 48px);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.custom-icon {
+  margin: 0 8px;
+  color: #000;
+}
+

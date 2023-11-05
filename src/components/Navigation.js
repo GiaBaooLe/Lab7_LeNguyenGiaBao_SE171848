@@ -36,7 +36,7 @@ function Navigation() {
   }, []);
 
   return (
-    <AppBar position="static" style={{ backgroundColor: "#606060" }}>
+    <AppBar position="static" style={{ backgroundColor: "#1E90FF" }}>
       <div className="content">
         <Container maxWidth="xl">
           <Toolbar disableGutters>
@@ -55,7 +55,7 @@ function Navigation() {
                 textDecoration: "none",
               }}
             >
-              Lab7
+              
             </Typography>
 
             <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>

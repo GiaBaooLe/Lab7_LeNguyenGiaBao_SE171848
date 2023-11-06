@@ -32,7 +32,7 @@ function Home() {
     <div className="Home">
   <Navigation />
   
-      <div className="content" style={{ padding: '100px 0' }}>
+      <div className="content" >
       
         <h1>Home</h1>
         <Grid container spacing={2} columns={{ xs: 4, sm: 8, md: 12 }}>
@@ -53,7 +53,7 @@ function Home() {
                 </CardContent>
                 <CardActions>
                   <Link to={`/detail/${data.id}`}>
-                    <Button size="small">Detail</Button>
+                    <Button size="small" style={{backgroundColor:'black', color:'white'}}>Detail</Button>
                   </Link>
                 </CardActions>
               </Card>
